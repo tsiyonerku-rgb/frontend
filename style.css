@@ -1,0 +1,53 @@
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1, h2 {
+  font-family: Impact;
+}
+/* Remove default list styling and align horizontally */
+.nav-links {
+  display: flex;              /* Places list items in a horizontal row */
+  list-style: none;           /* Removes default bullet points */
+  margin: 0;
+  padding: 0;
+  gap: 24px;                  /* Clean spacing between each menu item */
+  align-items: center;        /* Centers items vertically */
+}
+
+/* Optional styling for links */
+.nav-links a {
+  text-decoration: none;
+  color: #333333;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #0066cc;
+}
+.contact p {
+  margin: 5px 0; /* Adds vertical spacing between paragraphs */
+  text-align: center; /* Centers the text within the contact section */
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    color: red;
+}
+.contact a:visited{
+    color: yellowgreen;
+}
+.contact a:active{
+    color: blue;
+}
