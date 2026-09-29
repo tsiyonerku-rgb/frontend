@@ -35,6 +35,18 @@ h1, h2 {
   border: 3px solid purple; /* Adds a light gray border */
   margin: 20px 0; /* Adds vertical spacing above and below the line */
 }
+.hobbies-list {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;       /* Removes default padding */
+  margin: 0;        /* Removes default margin */
+list-style-position: inside;
+}
+.coding-list {
+  text-align: center;          /* Aligns the list to the left */
+  list-style-type: decimal; /* Uses decimal numbering for the list */
+  padding-left: 20px;       /* Adds padding to the left for indentation */
+  margin: 15px;               /* Removes default margin */
+}
 /* Remove default list styling and align horizontally */
 .nav-links {
   display: flex;              /* Places list items in a horizontal row */
